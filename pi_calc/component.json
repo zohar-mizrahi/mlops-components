@@ -1,0 +1,40 @@
+{
+    "engineType": "PySpark",
+    "language": "Python",
+    "userStandalone": false,
+    "name": "pi_calc",
+    "label": "PI calculation",
+    "version": "1.0.0",
+    "group": "Algorithms",
+    "program": "pi_calc.py",
+    "componentClass": "PiCalc",
+    "modelBehavior": "ModelProducer",
+    "useMLStats": true,
+    "inputInfo": [
+        {
+            "description": "RDD of integers",
+            "label": "int",
+            "defaultComponent": "",
+            "type": "org.apache.spark.rdd.RDD[int]",
+            "group": "data"
+        },
+        {
+            "description": "RDD of integers",
+            "label": "int",
+            "defaultComponent": "",
+            "type": "org.apache.spark.rdd.RDD[int]",
+            "group": "data"
+        }
+    ],
+    "outputInfo": [
+    ],
+    "arguments": [
+       { "key": "output-model",
+          "label": "Model output file",
+          "type": "str",
+          "description": "File to use for saving the trained model",
+          "optional": true,
+          "tag": "model_dir"
+        }
+     ]
+}

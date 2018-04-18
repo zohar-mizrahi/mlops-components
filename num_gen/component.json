@@ -1,0 +1,33 @@
+{
+    "engineType": "PySpark",
+    "language": "Python",
+    "userStandalone": false,
+    "name": "num_gen",
+    "label": "Number generator",
+    "version": "1.0.0",
+    "group": "Connectors",
+    "program": "num_gen.py",
+    "componentClass": "NumGen",
+    "useMLStats": false,
+    "inputInfo": [
+
+    ],
+    "outputInfo": [
+        {
+            "description": "RDD of integers",
+            "label": "int",
+            "defaultComponent": "",
+            "type": "org.apache.spark.rdd.RDD[int]",
+            "group": "data"
+        }
+    ],
+    "arguments": [
+        {
+            "key": "num_samples",
+            "type": "int",
+            "label": "Num samples",
+            "description": "Num samples",
+            "optional": true
+        }
+     ]
+}
