@@ -8,10 +8,8 @@
     "group": "Connectors",
     "program": "num_gen.py",
     "componentClass": "NumGen",
-    "useMLStats": false,
-    "inputInfo": [
-
-    ],
+    "useMLOps": false,
+    "inputInfo": [],
     "outputInfo": [
         {
             "description": "RDD of integers",

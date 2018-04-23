@@ -9,7 +9,7 @@
     "program": "pi_calc.py",
     "componentClass": "PiCalc",
     "modelBehavior": "ModelProducer",
-    "useMLStats": true,
+    "useMLOps": true,
     "inputInfo": [
         {
             "description": "RDD of integers",
