@@ -18,3 +18,4 @@ class NumGen(Component):
     @staticmethod
     def _rand_num(x):
         return (np.random.random(), np.random.random())
+# Some comment
